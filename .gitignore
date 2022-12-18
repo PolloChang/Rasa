@@ -1,0 +1,2 @@
+data/models/*.tar.gz
+data/.rasa/cache/tmp*
