@@ -1,0 +1,138 @@
+intents:
+  - affirm
+  - deny
+  - greet
+  - goodbye
+  - thanks
+  - whoareyou
+  - whattodo
+  - request_weather
+  - request_number
+  - inform
+  - inform_business
+  - stop
+  - chitchat
+  - weather_form
+  - form_info
+
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+
+# slots:
+#   date_time:
+#     type: unfeaturized
+#     auto_fill: false
+#   address:
+#     type: unfeaturized
+#     auto_fill: false
+#   type:
+#     type: unfeaturized
+#     auto_fill: false
+#   number:
+#     type: unfeaturized
+#     auto_fill: false
+#   business:
+#     type: unfeaturized
+#     auto_fill: false
+
+entities:
+  - date_time
+  - address
+  - type
+  - number
+  - business
+
+actions:
+  - utter_answer_affirm
+  - utter_answer_deny
+  - utter_answer_greet
+  - utter_answer_goodbye
+  - utter_answer_thanks
+  - utter_answer_whoareyou
+  - utter_answer_whattodo
+  - utter_ask_date_time
+  - utter_ask_address
+  - utter_ask_number
+  - utter_ask_business
+  - utter_ask_type
+  - action_default_fallback
+
+# forms:
+#   - weather_form
+#   - number_form
+
+forms:
+  restaurant_form:
+    required_slots:
+        - cuisine
+        - num_people
+
+responses:
+  utter_answer_affirm:
+    - text: "嗯嗯，好的！"
+    - text: "嗯嗯，很開心能夠帮您解决問题~"
+    - text: "嗯嗯，還需要什麼我能夠帮助您的呢？"
+
+  utter_answer_greet:
+    - text: "您好！請問我可以帮到您吗？"
+    - text: "您好！很高興為您服務。請說出您要查詢的功能？"
+
+  utter_answer_goodbye:
+    - text: "再見"
+    - text: "拜拜"
+    - text: "雖然我有萬般捨不得，但是天下没有不散的宴席~祝您安好！"
+    - text: "期待下次再見！"
+    - text: "嗯嗯，下次需要時隨時記得我哟~"
+    - text: "see you!"
+
+  utter_answer_deny:
+    - text: "主人，您不開心吗？不要離開我哦"
+    - text: "怎麼了，主人？"
+
+  utter_answer_thanks:
+    - text: "嗯呢。不用客氣~"
+    - text: "這是我应该做的，主人~"
+    - text: "嗯嗯，合作愉快！"
+
+  utter_answer_whoareyou:
+    - text: "您好！我是小蔣呀，您的AI智能助理"
+
+  utter_answer_whattodo:
+    - text: "您好！很高興為您服務，我目前只支持查詢天氣哦。"
+
+  utter_ask_date_time:
+    - text: "請問您要查詢哪一天的天氣？"
+
+  utter_ask_address:
+    - text: "請問您要查下哪里的天氣？"
+
+  utter_ask_number:
+    - text: "請問您要查的{type}號碼是多少？"
+
+  utter_ask_business:
+    - text: "請問您要查詢什麼業務呢？"
+
+  utter_default:
+    - text: "没聽懂，請换種說法吧~"
+
+  utter_ask_continue:
+    - text: "請問您還要繼續吗?"
+
+  utter_noworries:
+    - text: "不用客氣 :)"
+    - text: "没事啦"
+    - text: "不客氣哈，都是老朋友了 :)"
+
+  utter_wrong_business:
+    - text: "當前還不支持{business}業務，請重新输入。"
+
+  utter_wrong_type:
+    - text: "當前還不支持查詢{type}。"
+
+  utter_wrong_number:
+    - text: "您输入的{number}有誤，請重新输入。"
+
+  utter_chitchat:
+    - text: "呃呃呃呃呃"
+    - text: "您這是在尬聊吗？"
