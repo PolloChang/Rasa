@@ -59,7 +59,7 @@ class NumberForm(FormAction):
         number = tracker.get_slot('number')
         business = tracker.get_slot('business')
         if not business:
-            dispatcher.utter_message(text="您要查詢的{}{}所属人为张三，湖南长沙人，现在就职于地球村物业管理有限公司。".format(number_type, number))
+            dispatcher.utter_message(text="您要查詢的{}{}所属人为张三，湖南長沙人，现在就职于地球村物业管理有限公司。".format(number_type, number))
             return []
 
         dispatcher.utter_message(text="你要查詢{}为{}的{}为：balabalabalabalabala。".format(number_type, number, business))
