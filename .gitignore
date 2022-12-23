@@ -1,2 +1,4 @@
 data/models/*.tar.gz
 data/.rasa/cache/tmp*
+data/.rasa/cache/*.db
+data/data/*.dat
