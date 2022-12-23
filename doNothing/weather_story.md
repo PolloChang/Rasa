@@ -1,10 +1,14 @@
-## happy path
+version: "3.1"
+stories:
+- story: happy path
+    steps:
 * request_weather
     - weather_form
     - form{"name": "weather_form"}
     - form{"name": null}
     
-## happy path
+- story: happy path
+    steps:
 * greet
     - utter_answer_greet
 * request_weather
@@ -14,7 +18,8 @@
 * thanks
     - utter_noworries
 
-## unhappy path
+- story: unhappy path
+    steps:
 * greet
     - utter_answer_greet
 * request_weather
@@ -27,7 +32,8 @@
 * thanks
     - utter_noworries
 
-## very unhappy path
+- story: very unhappy path
+    steps:
 * greet
     - utter_answer_greet
 * request_weather
@@ -46,7 +52,8 @@
 * thanks
     - utter_noworries
 
-## stop but continue path
+- story: stop but continue path
+    steps:
 * greet
     - utter_answer_greet
 * request_weather
@@ -60,7 +67,8 @@
 * thanks
     - utter_noworries
 
-## stop and really stop path
+- story: stop and really stop path
+    steps:
 * greet
     - utter_answer_greet
 * request_weather
@@ -72,7 +80,8 @@
     - action_deactivate_form
     - form{"name": null}
 
-## chitchat stop but continue path
+- story: chitchat stop but continue path
+    steps:
 * request_weather
     - weather_form
     - form{"name": "weather_form"}
@@ -87,7 +96,8 @@
 * thanks
     - utter_noworries
 
-## stop but continue and chitchat path
+- story: stop but continue and chitchat path
+    steps:
 * greet
     - utter_answer_greet
 * request_weather
@@ -104,7 +114,8 @@
 * thanks
     - utter_noworries
 
-## chitchat stop but continue and chitchat path
+- story: chitchat stop but continue and chitchat path
+    steps:
 * greet
     - utter_answer_greet
 * request_weather
@@ -124,7 +135,8 @@
 * thanks
     - utter_noworries
 
-## chitchat, stop and really stop path
+- story: chitchat, stop and really stop path
+    steps:
 * greet
     - utter_answer_greet
 * request_weather
@@ -138,9 +150,10 @@
 * deny
     - action_deactivate_form
     - form{"name": null}
-        
-## interactive_story_1
-## 天气 + 时间 + 地点 + 地点
+
+# 天气 + 时间 + 地点 + 地点
+- story: interactive_story_1
+    steps:
 * request_weather
     - weather_form
     - form{"name": "weather_form"}
@@ -165,8 +178,9 @@
 * thanks
     - utter_answer_thanks
 
-## interactive_story_1
-## 天气 + 时间 + 地点 + 时间
+# 天气 + 时间 + 地点 + 时间
+- story: interactive_story_1
+    steps:
 * request_weather
     - weather_form
     - form{"name": "weather_form"}
@@ -191,8 +205,9 @@
 * affirm
     - utter_answer_affirm
 
-## interactive_story_2
-## 天气/时间/地点 + 地点
+# 天气/时间/地点 + 地点
+- story: interactive_story_2
+    steps:
 * request_weather{"date_time": "明天", "address": "上海"}
     - weather_form
     - form{"name": "weather_form"}
@@ -211,8 +226,9 @@
 * thanks
     - utter_answer_thanks
 
-## interactive_story_3
-## 天气/时间/地点 + 时间
+# 天气/时间/地点 + 时间
+- story: interactive_story_3
+    steps:
 * request_weather{"address": "深圳", "date_time": "后天"}
     - weather_form
     - form{"name": "weather_form"}
@@ -231,8 +247,9 @@
 * thanks
     - utter_answer_thanks
 
-## interactive_story_2
-## 天气/时间/地点 + 地点 + 时间
+# 天气/时间/地点 + 地点 + 时间
+- story: interactive_story_2
+    steps:
 * request_weather{"date_time": "明天", "address": "上海"}
     - weather_form
     - form{"name": "weather_form"}
@@ -259,8 +276,9 @@
 * affirm
     - utter_answer_affirm
 
-## interactive_story_3
-## 天气/时间/地点 + 地点 + 地点
+# 天气/时间/地点 + 地点 + 地点
+- story: interactive_story_3
+    steps:
 * request_weather{"date_time": "后天", "address": "北京"}
     - weather_form
     - form{"name": "weather_form"}
@@ -287,8 +305,9 @@
 * thanks
     - utter_answer_thanks
 
-## interactive_story_4
-## 天气/时间/地点 + 时间 + 地点
+# 天气/时间/地点 + 时间 + 地点
+- story: interactive_story_4
+    steps:
 * request_weather{"date_time": "明天", "address": "长沙"}
     - weather_form
     - form{"name": "weather_form"}
@@ -315,8 +334,9 @@
 * affirm
     - utter_answer_affirm
 
-## interactive_story_5
-## 天气/时间/地点 + 时间 + 时间
+# 天气/时间/地点 + 时间 + 时间
+- story: interactive_story_5
+    steps:
 * request_weather{"date_time": "后天", "address": "深圳"}
     - weather_form
     - form{"name": "weather_form"}
@@ -343,8 +363,9 @@
 * thanks
     - utter_answer_thanks
 
-## interactive_story_4
-## 天气/时间 + 地点 + 时间
+# 天气/时间 + 地点 + 时间
+- story: interactive_story_4
+    steps:
 * request_weather{"date_time": "明天"}
     - weather_form
     - form{"name": "weather_form"}
@@ -366,8 +387,9 @@
 * thanks
     - utter_answer_thanks
 
-## interactive_story_5
-## 天气/地点 + 时间 + 时间
+# 天气/地点 + 时间 + 时间
+- story: interactive_story_5
+    steps:
 * request_weather{"address": "广州"}
     - weather_form
     - form{"name": "weather_form"}
@@ -389,8 +411,9 @@
 * thanks
     - utter_answer_thanks
     
-## interactive_story_1
-## 天气/时间/地点 + chit + chit(restart)+询问天气
+# 天气/时间/地点 + chit + chit(restart)+询问天气
+- story: interactive_story_1
+    steps:
 * request_weather{"date_time": "今天", "address": "广州"}
     - weather_form
     - form{"name": "weather_form"}

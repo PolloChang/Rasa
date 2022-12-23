@@ -43,7 +43,7 @@ nlu:
     - 你能干什麼
     - 你能做什麼
 
-- intent:thanks
+- intent: thanks
   examples: |
     - 謝謝
     - thanks
@@ -56,7 +56,16 @@ nlu:
 
 - intent: goodbye
   examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
     - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
     - bye
     - bye bye
     - 88

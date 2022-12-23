@@ -4,7 +4,7 @@ Rasa 學習筆記
 ## 執行 shell
 
 ```bash
-rasa shell --model ~/Documents/gitContent/jameschang/Rasa/data/models/20221222-231239-brute-snapper.tar.gz
+rasa shell --model ~/Documents/gitContent/jameschang/Rasa/data/models/20221224-000547-new-tungsten.tar.gz
 ```
 
 ## 訓練

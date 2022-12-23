@@ -1,3 +1,5 @@
+version: "3.1"
+stories:
 ## interactive_story_1
 ## happy path
 * greet
