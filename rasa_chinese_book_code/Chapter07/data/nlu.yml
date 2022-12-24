@@ -3,10 +3,10 @@ nlu:
   - intent: goodbye
     examples: |
       - 拜拜
-      - 再见
+      - 再見
       - 拜
       - 退出
-      - 结束
+      - 結束
   - intent: greet
     examples: |
       - 你好
@@ -15,8 +15,8 @@ nlu:
       - hello
       - Hi
       - hi
-      - 喂
-      - 在么
+      - 餵
+      - 在麼
   - intent: info_date
     examples: |
       - [明天](date)
@@ -31,20 +31,20 @@ nlu:
       - [南京](city)
   - intent: book_ticket
     examples: |
-      - 帮我定车票
-      - 帮我定一张车票
-      - 帮我定一张从[上海]{"entity": "city", "role": "departure"}出发的车票
-      - 帮我定一张从[上海]{"entity": "city", "role": "departure"}走的车票
-      - 帮我定一张从[上海]{"entity": "city", "role": "departure"}走的票
-      - 帮我定一张[上海]{"entity": "city", "role": "departure"}到[北京]{"entity": "city", "role": "destination"}的车票
-      - 帮我定一张[明天](date)[上海]{"entity": "city", "role": "departure"}到[北京]{"entity": "city", "role": "destination"}的车票
-      - 帮我定一张[明天](date)[上海]{"entity": "city", "role": "departure"}去[北京]{"entity": "city", "role": "destination"}的车票
-      - 帮我定一张[明天](date)的车票
-      - 帮我定一张去[北京]{"entity": "city", "role": "destination"}的车票
-      - 帮我定张去[北京]{"entity": "city", "role": "destination"}的车票
-      - 帮我定张从[上海]{"entity": "city", "role": "departure"}出发的车票
-      - 帮我定张到[北京]{"entity": "city", "role": "destination"}的车票
-  - synonym: 下个星期一
+      - 幫我定車票
+      - 幫我定一張車票
+      - 幫我定一張從[上海]{"entity": "city", "role": "departure"}出發的車票
+      - 幫我定一張從[上海]{"entity": "city", "role": "departure"}走的車票
+      - 幫我定一張從[上海]{"entity": "city", "role": "departure"}走的票
+      - 幫我定一張[上海]{"entity": "city", "role": "departure"}到[北京]{"entity": "city", "role": "destination"}的車票
+      - 幫我定一張[明天](date)[上海]{"entity": "city", "role": "departure"}到[北京]{"entity": "city", "role": "destination"}的車票
+      - 幫我定一張[明天](date)[上海]{"entity": "city", "role": "departure"}去[北京]{"entity": "city", "role": "destination"}的車票
+      - 幫我定一張[明天](date)的車票
+      - 幫我定一張去[北京]{"entity": "city", "role": "destination"}的車票
+      - 幫我定張去[北京]{"entity": "city", "role": "destination"}的車票
+      - 幫我定張從[上海]{"entity": "city", "role": "departure"}出發的車票
+      - 幫我定張到[北京]{"entity": "city", "role": "destination"}的車票
+  - synonym: 下個星期一
     examples: |
       - 下星期一
   - synonym: 今天

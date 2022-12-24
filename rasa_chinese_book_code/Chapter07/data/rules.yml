@@ -1,6 +1,6 @@
 version: "3.0"
 rules:
-  - rule: 处理查询
+  - rule: 處理查詢
     steps:
       - intent: book_ticket
       - action: ticket_form

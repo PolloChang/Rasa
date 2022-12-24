@@ -43,15 +43,15 @@ slots:
         entity: date
 responses:
   utter_greet:
-    - text: 你好，欢迎使用 Silly 订票系统。
+    - text: 你好，歡迎使用 Silly 訂票係統。
   utter_goodbye:
-    - text: 再见！
+    - text: 再見！
   utter_ask_city_depart:
-    - text: 从哪里出发呢？
+    - text: 從哪裏出發呢？
   utter_ask_city_arrive:
-    - text: 到哪里去呢？
+    - text: 到哪裏去呢？
   utter_ask_date:
-    - text: 什么时候出发？
+    - text: 什麼時候出發？
 actions:
   - action_buy_ticket
   - utter_greet
