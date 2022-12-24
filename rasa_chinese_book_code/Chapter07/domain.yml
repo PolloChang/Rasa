@@ -1,0 +1,64 @@
+version: "3.0"
+
+session_config:
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: true
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - book_ticket
+  - info_city
+  - info_date
+entities:
+  - city
+  - date
+slots:
+  city_arrive:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: city
+        role: destination
+      - type: from_entity
+        entity: city
+        intent: info_city
+  city_depart:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: city
+        role: departure
+      - type: from_entity
+        entity: city
+        intent: info_city
+  date:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: date
+responses:
+  utter_greet:
+    - text: 你好，欢迎使用 Silly 订票系统。
+  utter_goodbye:
+    - text: 再见！
+  utter_ask_city_depart:
+    - text: 从哪里出发呢？
+  utter_ask_city_arrive:
+    - text: 到哪里去呢？
+  utter_ask_date:
+    - text: 什么时候出发？
+actions:
+  - action_buy_ticket
+  - utter_greet
+  - utter_goodbye
+forms:
+  ticket_form:
+    required_slots:
+      - city_arrive
+      - city_depart
+      - date
