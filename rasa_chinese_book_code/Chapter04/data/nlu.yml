@@ -3,10 +3,10 @@ nlu:
   - intent: goodbye
     examples: |
       - 拜拜
-      - 再见
+      - 再見
       - 拜
       - 退出
-      - 结束
+      - 結束
   - intent: greet
     examples: |
       - 你好
@@ -14,46 +14,46 @@ nlu:
       - hello
       - hi
       - 喂
-      - 在么
+      - 在麼
   - intent: faq/notes
     examples: |
-      - 应聘ACME校园招聘职位的注意事项?
+      - 應聘ACME校園招聘職位的註意事項?
   - intent: faq/work_location
     examples: |
-      - 校园招聘录取的应届生主要工作地点在哪里?
+      - 校園招聘錄取的應屆生主要工作地點在哪裏?
   - intent: faq/max_job_request
     examples: |
-      - 最多申请几个职位?
+      - 最多申請幾個職位?
   - intent: faq/audit
     examples: |
-      - 各阶段审核说明
+      - 各階段審核說明
   - intent: faq/write_exam_participate
     examples: |
-      - 怎样参加笔试?
+      - 怎樣參加筆試?
   - intent: faq/write_exam_location
     examples: |
-      - 笔试考试地点如何安排?
+      - 筆試考試地點如何安排?
   - intent: faq/write_exam_again
     examples: |
-      - 笔试只安排一次吗?我笔试当天没有参加，是否还有再次笔试的机会?
+      - 筆試隻安排一次嗎?我筆試當天冇有參加，是否還有再次筆試的機會?
   - intent: faq/write_exam_with-out-offer
     examples: |
-      - 如果我没有收到笔试通知，但我很想进入ACME，能否直接进入考场参加考试?
+      - 如果我冇有收到筆試通知，但我很想進入ACME，能否直接進入考場參加考試?
   - intent: faq/interview_arrangement
     examples: |
-      - 面试什么时候开始?会提前多少天通知面试安排?
+      - 麵試什麼時候開始?會提前多少天通知麵試安排?
   - intent: faq/interview_times
     examples: |
-      - 一般会安排几次面试?
+      - 一般會安排幾次麵試?
   - intent: faq/interview_from
     examples: |
-      - 面试的形式是怎样的?是单独面试还是小组面试?
+      - 麵試的形式是怎樣的?是單獨麵試還是小組麵試?
   - intent: faq/interview_clothing
     examples: |
-      - 对面试的服装有什么具体的要求?
+      - 對麵試的服裝有什麼具體的要求?
   - intent: faq/interview_paperwork
     examples: |
-      - 面试时需要携带什么资料?
+      - 麵試時需要攜帶什麼資料?
   - intent: faq/interview_result
     examples: |
-      - 如何查询面试结果?
+      - 如何查詢麵試結果?

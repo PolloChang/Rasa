@@ -1,5 +1,5 @@
 ## 示例 #1
-* query_knowledge_base: 有什么好听的[歌曲](object_type)？
+* query_knowledge_base: 有什麼好聽的[歌麯](object_type)？
     - slot{"object_type":"song"}
     - action_response_query
     - slot{"object_type":"song"}
@@ -8,7 +8,7 @@
     - slot{"knowledge_base_last_object":null}
     - slot{"knowledge_base_last_object_type":"song"}
     - slot{"knowledge_base_listed_objects":[0,2,1]}
-* query_knowledge_base: [第一首](mention)属于什么[专辑](attribute)？
+* query_knowledge_base: [第一首](mention)屬於什麼[專輯](attribute)？
     - slot{"attribute":"album"}
     - slot{"mention":"2"}
     - action_response_query
@@ -28,9 +28,9 @@
     - slot{"knowledge_base_last_object":null}
     - slot{"knowledge_base_last_object_type":"singer"}
     - slot{"knowledge_base_listed_objects":[3,2,0,1]}
-* query_knowledge_base: [周杰伦](singer)的[生日](attribute)
+* query_knowledge_base: [周傑倫](singer)的[生日](attribute)
     - slot{"attribute":"birthday"}
-    - slot{"singer":"周杰伦"}
+    - slot{"singer":"周傑倫"}
     - action_response_query
     - slot{"object_type":"singer"}
     - slot{"attribute":null}
@@ -39,9 +39,9 @@
     - slot{"knowledge_base_last_object_type":"singer"}
 
 ## 示例 #3
-* query_knowledge_base: 给我列出[周杰伦](singer)的[歌曲](object_type)
+* query_knowledge_base: 給我列出[周傑倫](singer)的[歌麯](object_type)
     - slot{"object_type":"song"}
-    - slot{"singer":"周杰伦"}
+    - slot{"singer":"周傑倫"}
     - action_response_query
     - slot{"object_type":"song"}
     - slot{"mention":null}

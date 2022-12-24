@@ -9,11 +9,11 @@ intents:
   - faq
 responses:
   utter_greet:
-    - text: 你好，我是 Silly，我是一个基于 Rasa 的 FAQ 机器人
+    - text: 你好，我是 Silly，我是一個基於 Rasa 的 FAQ 機器人
   utter_goodbye:
-    - text: 再见！
+    - text: 再見！
   utter_default:
-    - text: 系统不明白您说的话
+    - text: 系統不明白您說的話
 actions:
   - utter_goodbye
   - utter_greet

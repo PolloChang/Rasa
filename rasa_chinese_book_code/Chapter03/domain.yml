@@ -19,9 +19,9 @@ slots:
         entity: date
 responses:
   utter_greet:
-    - text: 你好，我是 Silly，我可以帮你查询时间、日期和星期几。你可以对我说「现在几点了？」、「今天几号？」或者「明天星期几？」。
+    - text: 你好，我是 Silly，我可以幫你查詢時間、日期和星期幾。你可以對我說「現在幾點了？」、「今天幾號？」或者「明天星期幾？」。
   utter_goodbye:
-    - text: 再见！
+    - text: 再見！
 actions:
   - action_query_time
   - action_query_date

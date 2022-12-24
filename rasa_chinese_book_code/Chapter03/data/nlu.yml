@@ -6,36 +6,36 @@ nlu:
       - 您好
       - hello
       - hi
-      - 喂
-      - 在么
+      - 餵
+      - 在麼
   - intent: goodbye
     examples: |
       - 拜拜
-      - 再见
+      - 再見
       - 拜
       - 退出
-      - 结束
+      - 結束
   - intent: query_time
     examples: |
-      - 现在几点了
-      - 什么时候了
-      - 几点了
-      - 现在什么时候了
-      - 现在的时间
+      - 現在幾點了
+      - 什麼時候了
+      - 幾點了
+      - 現在什麼時候了
+      - 現在的時間
   - intent: query_date
     examples: |
-      - [今天](date)几号
-      - [今天](date)是几号
-      - [昨天](date)几号
-      - [明天](date)几号
+      - [今天](date)幾號
+      - [今天](date)是幾號
+      - [昨天](date)幾號
+      - [明天](date)幾號
       - [今天](date)的日期
-      - [今天](date)几号了
+      - [今天](date)幾號了
       - [明天](date)的日期
-      - 几号
+      - 幾號
   - intent: query_weekday
     examples: |
-      - [今天](date)星期几
-      - [明天](date)星期几
-      - [昨天](date)星期几
-      - [今天](date)是星期几
-      - 星期几
+      - [今天](date)星期幾
+      - [明天](date)星期幾
+      - [昨天](date)星期幾
+      - [今天](date)是星期幾
+      - 星期幾

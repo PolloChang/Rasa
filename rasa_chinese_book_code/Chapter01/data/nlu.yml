@@ -6,12 +6,12 @@ nlu:
       - 早上好
   - intent: affirm
     examples: |
-      - 对的
-      - 确实
+      - 對的
+      - 確實
   - intent: restaurant_search
     examples: |
-      - 找个吃[拉面](food)的店
-      - 这附近哪里有吃[麻辣烫](food)的地方
+      - 找個吃[拉麵](food)的店
+      - 這附近哪裏有吃[麻辣燙](food)的地方
   - intent: medical
     examples: |
-      - 我[胃痛](disease)，该吃什么药？
+      - 我[胃痛](disease)，該吃什麼藥？
