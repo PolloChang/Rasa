@@ -1,0 +1,9 @@
+version: "3.0"
+nlu:
+  - intent: query_time
+    examples: |
+      - 現在幾點了
+      - 什麼時候了
+      - 幾點了
+      - 現在什麼時候了
+      - 現在的時間

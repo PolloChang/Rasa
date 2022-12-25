@@ -1,0 +1,6 @@
+# version: "3.0"
+# stories:
+#   - story: query time
+#     steps:
+#       - intent: query_time
+#       - action: action_query_time

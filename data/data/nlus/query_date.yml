@@ -1,0 +1,12 @@
+version: "3.1"
+nlu:
+  - intent: query_date
+    examples: |
+      - [今天](date)幾號
+      - [今天](date)是幾號
+      - [昨天](date)幾號
+      - [明天](date)幾號
+      - [今天](date)的日期
+      - [今天](date)幾號了
+      - [明天](date)的日期
+      - 幾號

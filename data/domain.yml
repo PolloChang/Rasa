@@ -1,8 +1,36 @@
-version: "3.0"
+version: "3.1"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
 
+# 意圖設定
 intents:
   - greet
   - goodbye
   - medicine
   - medical_department
   - medical_hospital
+  # - query_time
+  - query_date
+  - query_weekday
+
+entities:
+  - date
+slots:
+  date:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_entity
+        entity: date
+responses:
+  utter_greet:
+    - text: 你好，我是 Pollo ，我可以幫你查詢時間、日期和星期幾。你可以對我說「現在幾點了？」、「今天幾號？」或者「明天星期幾？」。
+  utter_goodbye:
+    - text: 再見！
+actions:
+  # - action_query_time
+  - action_query_date
+  - action_query_weekday
+  - utter_goodbye
+  - utter_greet

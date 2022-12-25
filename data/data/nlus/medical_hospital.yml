@@ -1,0 +1,8 @@
+version: "3.0"
+nlu:
+  - intent: medical_hospital
+    examples: |
+      - 我生病了，不知道去哪裏看病
+      - [減肥](disease)有什麼好的醫院或者健康中心推薦嗎？
+      - 想做個[體檢](disease)，有哪家醫院或者哪裏的診所或者健康中心比較實惠啊？
+      - 父母都有[高血壓](disease)，我應該推薦他們去哪家醫院好呢

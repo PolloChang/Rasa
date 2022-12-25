@@ -1,0 +1,11 @@
+version: "3.0"
+nlu:
+  - intent: medicine
+    examples: |
+      - [感冒](disease)了該吃什麼藥
+      - 我[便秘](disease)了，該吃什麼藥
+      - 我[胃痛](disease)，該吃什麼藥
+      - 一直[打噴嚏](disease)吃什麼藥好
+      - 父母都有[高血壓](disease)，我應該推薦他們吃什麼藥好呢
+      - 頭上燙燙的，感覺[發燒](disease)了，該吃什麼藥好
+      - [減肥](disease)有什麼好的藥品推薦嗎？
