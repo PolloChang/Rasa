@@ -5,8 +5,9 @@ nlu:
     - 你好
     - hello
     - hi
-    - 餵
+    - 喂
     - 在麼
+    - 在嗎
     - hey
     - hello
     - hi
@@ -20,7 +21,20 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
+    - 你好啊
+    - 早上好
+    - 晚上好
+    - 嗨
+    - 嗨喽
+    - 見到你很高興
+    - 嘿
+    - 早
+    - 上午好
+    - hello哈喽
+    - 哈囉哈囉
+    - hello hello
+    - 喂喂
+    - 哈囉
 
 
 
