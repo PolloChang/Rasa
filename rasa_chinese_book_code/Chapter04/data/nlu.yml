@@ -41,19 +41,19 @@ nlu:
       - 如果我冇有收到筆試通知，但我很想進入ACME，能否直接進入考場參加考試?
   - intent: faq/interview_arrangement
     examples: |
-      - 麵試什麼時候開始?會提前多少天通知麵試安排?
+      - 面試什麼時候開始?會提前多少天通知面試安排?
   - intent: faq/interview_times
     examples: |
-      - 一般會安排幾次麵試?
+      - 一般會安排幾次面試?
   - intent: faq/interview_from
     examples: |
-      - 麵試的形式是怎樣的?是單獨麵試還是小組麵試?
+      - 面試的形式是怎樣的?是單獨面試還是小組面試?
   - intent: faq/interview_clothing
     examples: |
-      - 對麵試的服裝有什麼具體的要求?
+      - 對面試的服裝有什麼具體的要求?
   - intent: faq/interview_paperwork
     examples: |
-      - 麵試時需要攜帶什麼資料?
+      - 面試時需要攜帶什麼資料?
   - intent: faq/interview_result
     examples: |
-      - 如何查詢麵試結果?
+      - 如何查詢面試結果?
