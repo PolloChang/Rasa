@@ -1,0 +1,10 @@
+# version: "3.1"
+
+# nlu:
+# - intent: query_weekday
+#   examples: |
+#     - [今天](date)星期幾
+#     - [明天](date)星期幾
+#     - [昨天](date)星期幾
+#     - [今天](date)是星期幾
+#     - 星期幾

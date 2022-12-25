@@ -8,6 +8,20 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - query_time
+  # - query_date
+  # - query_weekday
+
+# entities:
+#   - date
+
+# slots:
+#   date:
+#     type: text
+#     influence_conversation: false
+#     mappings:
+#       - type: from_entity
+#         entity: date
 
 responses:
   utter_greet:
@@ -28,6 +42,11 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+actions:
+  - action_query_time
+#   - action_query_date
+#   - action_query_weekday
 
 session_config:
   session_expiration_time: 60
