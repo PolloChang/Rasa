@@ -1,9 +1,0 @@
-version: "3.1"
-nlu:
-  - intent: medical_department
-    examples: |
-      - [感冒](disease)了該吃去哪個科室看病
-      - 我[便秘](disease)了，該去掛哪個科室的號
-      - 我[胃痛](disease)，該去醫院看哪個門診啊
-      - 一直[打噴嚏](disease)掛哪一個科室的號啊
-      - [頭疼](disease)該掛哪科
