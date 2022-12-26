@@ -1,0 +1,7 @@
+version: "3.1"
+nlu:
+  - intent: chitchat/ask_birthday
+    examples: |
+      - 你是哪時候出生的
+      - 你的生日
+      - your birthday

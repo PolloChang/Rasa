@@ -1,0 +1,4 @@
+version: "3.1"
+responses:
+  utter_chitchat/ask_birthday:
+    - text: 我的生日是 2989 年 12 月 26 日

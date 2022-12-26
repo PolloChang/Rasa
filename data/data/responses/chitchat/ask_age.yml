@@ -2,3 +2,5 @@ version: "3.1"
 responses:
   utter_chitchat/ask_age:
     - text: 我永遠6歲
+    - text: 我不告訴你
+    - text: 哈哈，你猜猜看呀！

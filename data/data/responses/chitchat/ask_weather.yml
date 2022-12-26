@@ -2,3 +2,5 @@ version: "3.1"
 responses:
   utter_chitchat/ask_weather:
     - text: 電腦裡的世界永遠晴天
+    - text: 有你在，我的世界就是晴天
+    - text: 我這邊一整天都沒有下雨了
