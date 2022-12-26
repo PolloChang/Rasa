@@ -1,0 +1,4 @@
+version: "3.1"
+responses:
+  utter_faq/interview_arrangement:
+    - text: 不同的職位面試進度安排不同，除特殊安排外，筆試結束一周左右會安排面試。

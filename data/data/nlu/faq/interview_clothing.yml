@@ -1,0 +1,5 @@
+version: "3.1"
+nlu:
+  - intent: faq/interview_clothing
+    examples: |
+      - 對面試的服裝有什麼具體的要求?

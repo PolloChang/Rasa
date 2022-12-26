@@ -1,0 +1,5 @@
+version: "3.1"
+nlu:
+  - intent: faq/write_exam_again
+    examples: |
+      - 筆試隻安排一次嗎?我筆試當天冇有參加，是否還有再次筆試的機會?

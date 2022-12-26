@@ -1,0 +1,5 @@
+version: "3.1"
+nlu:
+  - intent: faq/work_location
+    examples: |
+      - 校園招聘錄取的應屆生主要工作地點在哪裏?

@@ -1,0 +1,5 @@
+version: "3.1"
+nlu:
+  - intent: faq/write_exam_participate
+    examples: |
+      - 怎樣參加筆試?

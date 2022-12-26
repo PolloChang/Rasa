@@ -1,0 +1,4 @@
+version: "3.1"
+responses:
+  utter_faq/interview_from:
+    - text: 面試一般以單獨面試的形式進行，但根據各公司的面試安排，也會進行小組面試。

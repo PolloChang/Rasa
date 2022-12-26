@@ -1,0 +1,5 @@
+version: "3.1"
+nlu:
+  - intent: faq/interview_arrangement
+    examples: |
+      - 面試什麼時候開始?會提前多少天通知面試安排?

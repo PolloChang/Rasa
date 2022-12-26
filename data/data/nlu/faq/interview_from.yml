@@ -1,0 +1,5 @@
+version: "3.1"
+nlu:
+  - intent: faq/interview_from
+    examples: |
+      - 面試的形式是怎樣的?是單獨面試還是小組面試?

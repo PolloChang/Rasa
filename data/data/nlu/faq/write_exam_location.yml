@@ -1,0 +1,5 @@
+version: "3.1"
+nlu:
+  - intent: faq/write_exam_location
+    examples: |
+      - 筆試考試地點如何安排

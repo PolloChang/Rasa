@@ -1,0 +1,5 @@
+version: "3.1"
+nlu:
+  - intent: faq/notes
+    examples: |
+      - 應聘ACME校園招聘職位的註意事項?

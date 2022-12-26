@@ -1,0 +1,5 @@
+version: "3.1"
+nlu:
+  - intent: faq/interview_times
+    examples: |
+      - 一般會安排幾次面試?

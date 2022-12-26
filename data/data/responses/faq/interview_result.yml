@@ -1,0 +1,4 @@
+version: "3.1"
+responses:
+  utter_faq/interview_result:
+    - text: 我們會通過郵件或電話的形式，通知您面試結果。

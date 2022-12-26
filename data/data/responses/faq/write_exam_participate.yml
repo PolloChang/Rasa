@@ -1,0 +1,4 @@
+version: "3.1"
+responses:
+  utter_faq/write_exam_participate:
+    - text: 通過簡曆審核的應聘者，我們將採用簡訊、e-mail、ACME公告欄以及電話通知的方式告知您

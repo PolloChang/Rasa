@@ -1,0 +1,4 @@
+version: "3.1"
+responses:
+  utter_faq/work_location:
+    - text: 招聘信息中包含各職位的工作地點內容，請參考各職位內容的詳細介紹。

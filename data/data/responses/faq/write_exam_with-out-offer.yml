@@ -1,0 +1,4 @@
+version: "3.1"
+responses:
+  utter_faq/write_exam_with-out-offer:
+    - text: 由於我們是按照嚴格的招聘流程篩選出的筆試名單，所以非常抱歉，對於冇有收到筆試通知的同學，就不能參加本次校園招聘的筆試。

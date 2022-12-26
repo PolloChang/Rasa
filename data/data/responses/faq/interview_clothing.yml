@@ -1,0 +1,4 @@
+version: "3.1"
+responses:
+  utter_faq/interview_clothing:
+    - text: 面試著裝冇有統一要求，但建議您盡量穿著較為正式的職業裝參加。

@@ -11,6 +11,7 @@ intents:
   - query_time
   # - query_date
   # - query_weekday
+  - faq
 
 # entities:
 #   - date
@@ -47,6 +48,7 @@ actions:
   - action_query_time
 #   - action_query_date
 #   - action_query_weekday
+  - respond_faq
 
 session_config:
   session_expiration_time: 60

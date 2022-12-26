@@ -1,0 +1,4 @@
+version: "3.1"
+responses:
+  utter_faq/write_exam_location:
+    - text: 筆試地點將根據您在簡曆中填寫的學校所在城市進行統籌安排

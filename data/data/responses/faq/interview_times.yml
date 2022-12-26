@@ -1,0 +1,4 @@
+version: "3.1"
+responses:
+  utter_faq/interview_times:
+    - text: 一般情況下，業務部門和人力資源部會同時或者分別安排一次面試。個別特殊職位需要2次及以上的面試。

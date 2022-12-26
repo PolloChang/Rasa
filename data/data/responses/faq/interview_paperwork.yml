@@ -1,0 +1,4 @@
+version: "3.1"
+responses:
+  utter_faq/interview_paperwork:
+    - text: 面試時，請您攜帶可以證明您身份的有效證件，有特殊要求的職位請攜帶好能證明您專業水準的證書原件以及影印件。

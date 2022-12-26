@@ -1,0 +1,5 @@
+version: "3.1"
+nlu:
+  - intent: faq/interview_paperwork
+    examples: |
+      - 面試時需要攜帶什麼資料?

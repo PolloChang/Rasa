@@ -1,0 +1,5 @@
+version: "3.1"
+nlu:
+  - intent: faq/write_exam_with-out-offer
+    examples: |
+      - 如果我冇有收到筆試通知，但我很想進入ACME，能否直接進入考場參加考試?

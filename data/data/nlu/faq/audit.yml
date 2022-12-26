@@ -1,0 +1,5 @@
+version: "3.1"
+nlu:
+  - intent: faq/audit
+    examples: |
+      - 各階段審核說明

@@ -1,0 +1,4 @@
+version: "3.1"
+responses:
+  utter_faq/write_exam_again:
+    - text: 校園招聘的大規模的筆試僅安排一次，請收到筆試通知的同學認真對待筆試機會。
