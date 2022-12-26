@@ -12,6 +12,7 @@ intents:
   # - query_date
   # - query_weekday
   - faq
+  - chitchat
 
 # entities:
 #   - date
@@ -49,6 +50,7 @@ actions:
 #   - action_query_date
 #   - action_query_weekday
   - respond_faq
+  - respond_chitchat
 
 session_config:
   session_expiration_time: 60

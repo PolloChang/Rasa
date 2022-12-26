@@ -1,0 +1,6 @@
+version: "3.1"
+nlu:
+  - intent: chitchat/ask_weather
+    examples: |
+      - 你那裡天氣如何
+      - 我這裡晴空萬里,你那裡呢？

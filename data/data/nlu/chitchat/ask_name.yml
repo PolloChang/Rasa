@@ -1,0 +1,7 @@
+version: "3.1"
+nlu:
+  - intent: chitchat/ask_name
+    examples: |
+      - 你叫什麼名字
+      - 你是誰？
+      - 你叫啥？
