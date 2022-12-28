@@ -19,7 +19,9 @@ pipeline:
     tensorboard_log_directory: ./log
     learning_rate: 0.001
     constrain_similarities: true
-#   - name: WhitespaceTokenizer
+  # - name: WhitespaceTokenizer
+    # 指定是否大小寫敏感，默認true爲敏感
+    # case_sensitive: false
 #   - name: RegexFeaturizer
 #   - name: LexicalSyntacticFeaturizer
 #   - name: CountVectorsFeaturizer
