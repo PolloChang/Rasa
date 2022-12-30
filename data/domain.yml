@@ -50,7 +50,10 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by PolloChang."
   - text: "我只不過是個機器人"
-
+  
+  utter_default:
+  - text: 不好意思，我沒有聽懂你的意思。
+  - text: 我資質駑鈍，可以換一種說法嗎？
 actions:
   - action_query_time
 #   - action_query_date
