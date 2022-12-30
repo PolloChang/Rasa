@@ -1,0 +1,5 @@
+version: "3.1"
+responses:
+  utter_default:
+  - text: 不好意思，我沒有聽懂你的意思。
+  - text: 我資質駑鈍，可以換一種說法嗎？

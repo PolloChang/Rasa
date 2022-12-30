@@ -1,0 +1,5 @@
+version: "3.1"
+responses:
+  utter_iamabot:
+  - text: "I am a bot, powered by PolloChang."
+  - text: "我只不過是個機器人"

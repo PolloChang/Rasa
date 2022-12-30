@@ -25,35 +25,6 @@ intents:
 #       - type: from_entity
 #         entity: date
 
-responses:
-  utter_greet:
-  - text: "Hey! How are you?"
-  - text: "Hey! 你好嗎？"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-  - text: "請問有什麼需要我幫忙的嗎?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-  - text: "太好了！"
-
-  utter_goodbye:
-  - text: "Bye"
-  - text: "Bye Bye"
-  - text: "88"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by PolloChang."
-  - text: "我只不過是個機器人"
-  
-  utter_default:
-  - text: 不好意思，我沒有聽懂你的意思。
-  - text: 我資質駑鈍，可以換一種說法嗎？
 actions:
   - action_query_time
 #   - action_query_date

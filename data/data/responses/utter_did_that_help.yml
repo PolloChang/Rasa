@@ -1,0 +1,5 @@
+version: "3.1"
+responses:
+  utter_did_that_help:
+  - text: "Did that help you?"
+  - text: "請問有什麼需要我幫忙的嗎?"
