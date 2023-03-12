@@ -1,0 +1,24 @@
+version: "3.1"
+nlu:
+  - intent: faq/lcms_O001
+    examples: |
+      - 要如何帶入介接資料？
+  - intent: faq/lcms_O002
+    examples: |
+      - 為什麼填了不符合資格後個案的資料就找不到了？
+  - intent: faq/lcms_O003
+    examples: |
+      - 「申請日期」的定義?
+  - intent: faq/lcms_O004
+    examples: |
+      - 「處理日期」的定義?
+
+responses:
+  utter_faq/lcms_O001:
+    - text: 填寫申請表時填入個案身分證後點選帶入介接資料即可
+  utter_faq/lcms_O002:
+    - text: 長照資格若選為不符合資格者，在送出申請表後會視同結案，僅能在100-個案總查詢查看資料。
+  utter_faq/lcms_O003:
+    - text: 申請日期為個案提出申請長照服務的日期(此日期為一固定日期不應且不需調整)
+  utter_faq/lcms_O004:
+    - text: 處理日期係指照專正式受理申請的日期，不需要也不應該隨著複評與計畫異動調整日期。
