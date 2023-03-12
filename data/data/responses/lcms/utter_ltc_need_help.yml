@@ -1,0 +1,5 @@
+version: "3.1"
+responses:
+  utter_ltc_need_help:
+  - text: 看起來你遇到了困難，需要我什麼幫助嘛？
+  - text: 我可是長照達人呢！有什麼困難說來聽聽，我可以為你解憂～

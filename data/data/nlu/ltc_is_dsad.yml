@@ -1,0 +1,12 @@
+version: "3.1"
+
+nlu:
+- intent: ltc_is_dsad
+  examples: |
+    - 當照專好無助唷
+    - 為什麼都不願意接受長照服務
+    - 做一個照顧服務員工時好長
+
+- synonym: 照專
+  examples: |
+    - 照顧管理專員

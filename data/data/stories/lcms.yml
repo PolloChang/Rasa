@@ -1,0 +1,7 @@
+version: "3.1"
+
+stories:
+- story: LTC is sad
+  steps:
+    - intent: ltc_is_dsad
+    - action: utter_ltc_need_help
